@@ -87,7 +87,7 @@ const fixes: Record<TestModelVersion, TypeNameFix> = {
     "Object.<string,any>": undefined,
     "sap.gantt.control.Toolbar": undefined,
   },
-  "1.71.14": {
+  "1.71.49": {
     Control: "sap.ui.core.Control",
     Element: "sap.ui.core.Element",
     array: "any[]",
@@ -253,7 +253,7 @@ const libraryFixes: Record<TestModelVersion, Record<string, LibraryFix[]>> = {
       },
     ],
   },
-  "1.71.14": {},
+  "1.71.49": {},
   "1.74.0": {
     "sap.ui.generic.app": [
       (content: Json): void => {

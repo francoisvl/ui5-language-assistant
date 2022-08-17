@@ -154,6 +154,8 @@ This means that there may be a delay between starting VS Code and having the rel
 
 This extension currently uses a hard-coded (1.71.x) version for the SAPUI5 metadata.
 
+> francoisvl: updated hard-coded version to 1.71.49
+
 #### Custom controls
 
 This extension does not currently support custom controls, some features, such as validations,

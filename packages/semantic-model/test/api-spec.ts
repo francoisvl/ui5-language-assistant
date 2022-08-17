@@ -288,7 +288,7 @@ context("The ui5-language-assistant semantic model package API", () => {
   }
 
   // TOOO add 1.75.0
-  const versions: TestModelVersion[] = ["1.60.14", "1.74.0", "1.71.14"];
+  const versions: TestModelVersion[] = ["1.60.14", "1.74.0", "1.71.49"];
   for (const version of versions) {
     createModelConsistencyTests(version);
   }

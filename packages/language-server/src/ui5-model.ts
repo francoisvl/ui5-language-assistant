@@ -13,7 +13,7 @@ import {
 import { Fetcher } from "../api";
 import { getLogger } from "./logger";
 
-const DEFAULT_UI5_VERSION = "1.71.14";
+const DEFAULT_UI5_VERSION = "1.71.49";
 
 export async function getSemanticModel(
   modelCachePath: string | undefined

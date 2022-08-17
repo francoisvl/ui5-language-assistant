@@ -87,7 +87,7 @@ export function buildUI5Model<T extends Partial<UI5SemanticModel>>(
   opts: Partial<UI5SemanticModel>
 ): UI5SemanticModel & Pick<T, keyof UI5SemanticModel>;
 
-export type TestModelVersion = "1.60.14" | "1.74.0" | "1.75.0" | "1.71.14";
+export type TestModelVersion = "1.60.14" | "1.74.0" | "1.75.0" | "1.71.49";
 
 /**
  * Return a UI5SemanticModel for the specified version.
